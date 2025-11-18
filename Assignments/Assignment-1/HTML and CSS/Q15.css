@@ -1,0 +1,23 @@
+.pos-container{
+    position:relative;
+    height:300px;
+    background:linear-gradient(90deg,#4289cf,#4283e4);
+    margin-bottom:1rem
+}
+.rel-box{
+    position:relative;
+    left:20px;top:20px;
+    width:150px;height:150px;
+    background:#f85a5a;
+    border:5px solid #ee50d4
+}
+.abs-box{
+    position:absolute;
+    right:0;bottom:0;
+    width:150px;height:150px;
+    background:#ec9191;border:5px solid #3ff85870}
+.fixed-box{position:fixed;
+    left:10px;bottom:10px;
+    width:150px;height:150px;
+    background:#913bd8;
+    border:5px solid #3ecf05}

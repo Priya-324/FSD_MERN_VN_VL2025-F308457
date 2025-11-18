@@ -1,0 +1,9 @@
+.fixed-header{
+    position:fixed;
+    top:0;left:0;
+    right:0;
+    background:#c5c5c5;
+    border-bottom:1px solid #eef2f7;
+    padding:0.75rem;
+    z-index:200
+}

@@ -1,0 +1,9 @@
+.dashboard{display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:auto 1fr auto;
+    gap:0.6rem}
+.dashboard .header{grid-column:1/4}
+.dashboard .footer{grid-column:1/4}
+.dashboard .sidebar{grid-row:2}
+.dashboard .main{grid-row:2}
+.dashboard .widgets{grid-row:2}
