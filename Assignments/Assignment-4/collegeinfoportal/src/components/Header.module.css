@@ -1,0 +1,36 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.brand {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary);
+}
+.nav {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+.link {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.active {
+  color: var(--primary);
+  background: #eef4ff;
+  font-weight: 600;
+}

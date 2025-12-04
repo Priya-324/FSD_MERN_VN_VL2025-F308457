@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "The CSE department focuses on software, algorithms, and computing.",
+    "courses": ["DSA", "OS", "DBMS"],
+    "faculty": ["Dr. Kumar", "Dr. Meena"],
+    "labs": ["Programming Lab", "Networks Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics and Communication Engineering",
+    "description": "ECE covers circuits, communication systems, and embedded design.",
+    "courses": ["Circuits", "Signals", "VLSI"],
+    "faculty": ["Dr. Ravi", "Dr. Anitha"],
+    "labs": ["Circuits Lab", "Communication Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "description": "Mechanical focuses on design, manufacturing, and thermodynamics.",
+    "courses": ["Thermo", "Manufacturing", "Mechanics"],
+    "faculty": ["Dr. Suresh", "Dr. Priya"],
+    "labs": ["CAD Lab", "Dynamics Lab"]
+  }
+]

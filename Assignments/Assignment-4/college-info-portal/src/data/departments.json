@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "The CSE department focuses on software, algorithms, and computing.",
+    "courses": ["DSA", "OS", "DBMS"],
+    "faculty": ["Dr. Kumar", "Dr. Meena"],
+    "labs": ["Programming Lab", "Networks Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "Applied computing, cloud, cybersecurity, and analytics for business solutions.",
+    "courses": ["Cloud Computing", "Cybersecurity", "Enterprise Systems"],
+    "faculty": ["Dr. Iyer", "Prof. Singh"],
+    "labs": ["Cloud & DevOps Lab", "Cybersecurity Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "description": "Electronics, signal processing, embedded systems, and communications.",
+    "courses": ["DSP", "VLSI", "Embedded Systems"],
+    "faculty": ["Dr. Sharma", "Dr. Das"],
+    "labs": ["Embedded Lab", "VLSI Lab", "Communication Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "description": "Design, manufacturing, thermal sciences, and robotics.",
+    "courses": ["Thermodynamics", "CAD/CAM", "Robotics"],
+    "faculty": ["Dr. Pillai", "Prof. Menon"],
+    "labs": ["Thermal Lab", "CAD/CAM Lab", "Robotics Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Structures, geotechnics, transportation, and environmental engineering.",
+    "courses": ["Structural Analysis", "Geotechnical", "Transportation"],
+    "faculty": ["Dr. Reddy", "Prof. Thomas"],
+    "labs": ["Materials Lab", "Soil Mechanics Lab", "Survey Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "Leadership, strategy, finance, marketing, and analytics.",
+    "courses": ["Finance", "Marketing", "Operations"],
+    "faculty": ["Prof. Mehta", "Dr. Rao"],
+    "labs": ["Analytics Lab", "Incubation Center"]
+  }
+]

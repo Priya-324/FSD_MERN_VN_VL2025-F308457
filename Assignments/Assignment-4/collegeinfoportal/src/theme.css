@@ -1,0 +1,38 @@
+:root {
+  --primary: #1f6feb;
+  --primary-700: #1158c7;
+  --text: #222;
+  --muted: #5e6b80;
+  --bg: #ffffff;
+  --border: #e5e7eb;
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(16,24,40,0.08);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 14px;
+  background: var(--primary);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.button:hover { background: var(--primary-700); }
